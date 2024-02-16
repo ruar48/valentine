@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine's Day</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<style type="text/css">
+  /* apply a natural box layout model to all elements,
+but allowing components to change */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color:rgb(0, 0, 0);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: justify;
+
+}
+main {
+  width: 655px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 50px 40px 60px 40px;
+}
+.maintext{
+  background: rgba(246, 38, 132, 0.53);
+  padding: 20px 10px;
+  color: white;
+}
+.wrapdiv{
+  display:flex;
+}
+.mainimage{
+  background-color: pink;
+  /*background-size: contain;
+  height: 300px;
+  margin:auto;
+  width:400px;*/
+}
+span{
+  margin: 0 5px;
+}
+h1 {
+  color: rgb(246, 38, 132);
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+h2{
+  text-transform: uppercase;
+  border-bottom: solid 2px pink;
+  text-align:left;
+}
+
+ul{
+  list-style: none;
+}
+ul{
+list-style-image: url("");
+}
+li{
+  font-size: 1.4em;
+}
+img{
+  height: 100%;
+  width: 100%;
+  max-width:300px;
+}
+blockquote{
+  border: 2px solid pink;
+  padding: 10px;
+}
+
+.heart-pulse {
+  animation: pulse 2s infinite;
+  display: inline-block;
+}
+@keyframes pulse {
+  0% { /* starts small */
+    transform: scale(0.5);
+  }
+  50% { /* halfway point - gets bigger */
+    transform: scale(1);
+  }
+  100% { /* end - goes back to starting size */
+    transform: scale(0.5);
+  }
+}
+
+.heart-falling {
+  position: absolute;
+  animation: falling 6s infinite linear;
+}
+
+.heart-falling:nth-of-type(1){
+ bottom: 500px;
+ left: 50%;
+}
+.heart-falling:nth-of-type(2){
+  bottom: 500px;
+ left: 20%;
+}
+.heart-falling:nth-of-type(3){
+  bottom: 200px;
+ left:30%;
+}
+.heart-falling:nth-of-type(4){
+  bottom: 50px;
+ left: 50%;
+}
+.heart-falling:nth-of-type(5){
+  bottom: 100px;
+ left:20%;
+}
+.heart-falling:nth-of-type(6){
+  bottom: 200px;
+ left: 30%;
+}
+
+@keyframes falling {
+  0% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    bottom: -25px;
+    transform: rotate(-360deg);
+  }
+}
+
+</style>
+<main>
+    <span class="heart-falling">&#9829;</span>
+    <span class="heart-falling">&#9829;</span>
+    <span class="heart-falling">&#9829;</span>
+    <span class="heart-falling">&#9829;</span>
+    <span class="heart-falling">&#9829;</span>
+    <span class="heart-falling">&#9829;</span>
+    <h2><span class="heart-pulse">&#9829;</span>Warm wishes to:</h2>
+    <h1>Dear April Joy Sagao,</h1>
+    <div class="wrapdiv">
+        <div class="maintext">
+            <p>Thank you for bringing so much joy into my life:</p>
+            <ul>
+              <li>shared laughter</li>
+<li>personalized surprises</li>
+<li>heartfelt messages</li>
+
+            </ul>
+            <h2>Happy Valentine's Day!<span class="heart-pulse">&#9829;</span></h2>
+        </div>
+        <div class="mainimage"><img src="https://images.unsplash.com/photo-1516646085441-e1719f13aa3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=93341582c6b79df39b45b93000761ec4&auto=format&fit=crop&w=666&q=80" alt="neon-heart-pic"></div>
+    </div>
+    <blockquote>
+        <p>"You know you're in love when you can't fall asleep because reality is finally better than your dreams."</p>
+        <cite>― Dr. Seuss</cite>
+    </blockquote>
+      <cite><u>JOMAR RUAR</u><br>
+<i>Your Pesuer</i>
+      </cite>
+ <a href="flower.html" style="text-decoration: none; margin-left: 10%;">
+    <button style="background-color: #e91e63; color: #fff; padding: 10px 20px; font-size: 16px; border: none; cursor: pointer; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#c2185b'" onmouseout="this.style.backgroundColor='#e91e63'">Click here for Valentine's surprise!</button>
+  </a></main>
+
+
+
+
+</body>
+</html>
